@@ -9,7 +9,7 @@ var Runner = require('../lib/runner');
 var path = require('path');
 var async = require('async');
 var browserify = require('browserify');
-var watchify = require('watchify');
+var watchify = undefined;//require('watchify');
 
 module.exports = Task;
 
